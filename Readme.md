@@ -1,6 +1,6 @@
 # clib(1)
 
-  [![Build Status](https://travis-ci.org/clibs/clib.svg?branch=master)](https://travis-ci.org/clibs/clib)
+  ![Build Status](https://github.com/clibs/clib/actions/workflows/tests.yml/badge.svg)
   [![Codacy Badge](https://app.codacy.com/project/badge/Grade/a196ec36c31349e18b6e4036eab1d02c)](https://www.codacy.com/gh/clibs/clib?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=clibs/clib&amp;utm_campaign=Badge_Grade)
 
   Package manager for the C programming language.
@@ -44,6 +44,20 @@ $ make
 # put on path
 $ sudo make install
 ```
+
+  Fedora:
+
+```sh
+# install libcurl
+$ sudo dnf install libcurl-devel
+# clone
+$ git clone https://github.com/clibs/clib.git /tmp/clib && cd /tmp/clib
+# build
+$ make
+# put on path
+$ sudo make install
+```
+
 
 ## About
 
